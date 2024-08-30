@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MvcMovie.Models.Movie>
+
+@{
+    ViewData["Title"] = "Movies Index";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Score</th>
+            <th>Score Average</th>
+            <th>Type</th>
+            <th>IMDB ID</th>
+            <th>TMDB ID</th>
+            <th>MAL ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Year</td>
+                    <td>@item.Score</td>
+                    <td>@item.ScoreAverage</td>
+                    <td>@item.Type</td>
+                    <td>@item.ImdbId</td>
+                    <td>@item.TmdbId</td>
+                    <td>@item.MalId</td>
+                    <td>
+                        <a asp-action="Details" asp-route-imdbid="@item.ImdbId" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-imdbid="@item.ImdbId" class="btn btn-warning btn-sm">Edit</a>
+                        <form asp-action="Delete" asp-route-imdbid="@item.ImdbId" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="9">No movies found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
