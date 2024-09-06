@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\controllers\\dbmoviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\dbmoviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\dbmovies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\dbmovies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\models\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\models\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\models\\accountusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\models\\accountusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\dbmovies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\dbmovies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\models\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\models\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\models\\moviedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\models\\moviedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.AccountUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\w5v55sod..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|c:\\users\\mark.kiniu\\desktop\\projects\\movies-api-call-main\\mvcmovie\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699FEB88-4011-45B5-BD6A-365FC62F0405}|MvcMovie\\MvcMovie.csproj|solutionrelative:mvcmovie\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.movies.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\ny3fxx2p..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MvcMovie\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:02:58.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\DbMovies\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\DbMovies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\DbMovies\\Index.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\DbMovies\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T05:53:57.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbMoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\DbMoviesController.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Controllers\\DbMoviesController.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\DbMoviesController.cs",
+              "RelativeToolTip": "MvcMovie\\Controllers\\DbMoviesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:19:35.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcMovie\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:19:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T09:37:15.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MvcMovie\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:48:52.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T10:06:32.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T12:17:41.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movies.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\Movies.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Models\\Movies.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\Movies.cs",
+              "RelativeToolTip": "MvcMovie\\Models\\Movies.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:27:51.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T10:05:16.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MvcMovie\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:30:27.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\AccountUsers.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Models\\AccountUsers.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\AccountUsers.cs",
+              "RelativeToolTip": "MvcMovie\\Models\\AccountUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:08:38.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Program.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Program.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Program.cs",
+              "RelativeToolTip": "MvcMovie\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:17:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcMovie\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\appsettings.json",
+              "RelativeToolTip": "MvcMovie\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T11:19:23.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\MovieService.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Models\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\MovieService.cs",
+              "RelativeToolTip": "MvcMovie\\Models\\MovieService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:49:21.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\DbMovies\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\DbMovies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\DbMovies\\Create.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\DbMovies\\Create.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T09:09:32.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieData.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\MovieData.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\Models\\MovieData.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Models\\MovieData.cs",
+              "RelativeToolTip": "MvcMovie\\Models\\MovieData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T08:50:04.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.AccountUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.AccountUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.AccountUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-06T08:46:52.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MoviesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\MoviesDbContext.cs",
+              "RelativeDocumentMoniker": "MvcMovie\\MoviesDbContext.cs",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\MoviesDbContext.cs",
+              "RelativeToolTip": "MvcMovie\\MoviesDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:16:02.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "w5v55sod..sql",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\w5v55sod..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\w5v55sod..sql",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\w5v55sod..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\w5v55sod..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-05T12:40:24.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T10:02:58.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T11:20:33.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcMovie\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\MvcMovie\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "MvcMovie\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T11:20:29.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SQLQuery2.sql",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery2.sql",
+              "RelativeToolTip": "SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-05T08:32:23.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.movies.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.movies.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_F36VHR0/moviesdb/True/SqlTable/dbo.movies.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-05T08:18:43.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ny3fxx2p..sql",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\ny3fxx2p..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\ny3fxx2p..sql",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\AppData\\Local\\Temp\\ny3fxx2p..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\ny3fxx2p..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-05T07:22:24.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\Mark.Kiniu\\Desktop\\projects\\Movies-api-call-main\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-05T08:17:55.212Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

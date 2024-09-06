@@ -1,0 +1,76 @@
+﻿@model MvcMovie.Models.Movie
+
+<h1>Create</h1>
+
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input type="text" asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Score" class="control-label"></label>
+                <input type="number" asp-for="Score" class="form-control" step="0.1" />
+                <span asp-validation-for="Score" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ScoreAverage" class="control-label"></label>
+                <input type="number" asp-for="ScoreAverage" class="form-control" step="0.1" />
+                <span asp-validation-for="ScoreAverage" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input type="text" asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImdbId" class="control-label"></label>
+                <input type="text" asp-for="ImdbId" class="form-control" />
+                <span asp-validation-for="ImdbId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TmdbId" class="control-label"></label>
+                <input type="text" asp-for="TmdbId" class="form-control" />
+                <span asp-validation-for="TmdbId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MalId" class="control-label"></label>
+                <input type="text" asp-for="MalId" class="form-control" />
+                <span asp-validation-for="MalId" class="text-danger"></span>
+            </div>
+
+            <!-- If there's a ReleaseDate property in the Movie model, uncomment this section -->
+            <!--
+            <div class="form-group">
+                <label asp-for="ReleaseDate" class="control-label"></label>
+                <input type="date" asp-for="ReleaseDate" class="form-control" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+            -->
+
+            <div class="form-group" method =" post">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
