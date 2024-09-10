@@ -1,14 +1,13 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.Data;
 using MvcMovie.Models;
-using System.Linq;
 using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace MvcMovie.Controllers
 {
+
     public class AccountController : Controller
     {
         private readonly ApplicationDbContext _applicationcontext;
@@ -38,15 +37,12 @@ namespace MvcMovie.Controllers
                     return View(model);
                 }
 
-                // Directly store the password
-                // No need to set PasswordHash or modify Password field
-
-                // Add the new AccountUser entity to the database
+                // Add the new AccountUser entity to the database with the selected role
                 _applicationcontext.AccountUsers.Add(model);
                 await _applicationcontext.SaveChangesAsync();
 
                 TempData["SuccessMessage"] = "Registration successful! Please log in.";
-                return RedirectToAction(nameof(Login));
+                return RedirectToAction(nameof(Login));  // Ensure you have a Login action
             }
             return View(model);
         }
@@ -74,10 +70,10 @@ namespace MvcMovie.Controllers
                 {
                     // Set up authentication cookie here
                     var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.Email)
-                // Add other claims as needed
-            };
+                    {
+                        new Claim(ClaimTypes.Name, user.Email),
+                        new Claim(ClaimTypes.Role, user.Role) // Include the role in the claims
+                    };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
@@ -89,24 +85,16 @@ namespace MvcMovie.Controllers
             return View(model);
         }
 
-
-
-
-
-
-
-
         // POST: /Account/Logout
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Logout()
         {
             // Handle logout (e.g., clearing cookies or session)
-            HttpContext.SignOutAsync(); // Optional: Clears any authentication cookies or sessions.
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme); // Specify the scheme to clear authentication cookies
 
             // Redirect to the first page, typically the Index action of the Home controller.
             return RedirectToAction("Index", "Home");
         }
-
     }
 }

@@ -110,7 +110,7 @@ public class DbMoviesController : Controller
         {
             _logger.LogWarning("Invalid model state while creating a movie.");
             return View(movie);
-        }
+        } 
 
         try
         {

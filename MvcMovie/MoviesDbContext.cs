@@ -11,6 +11,7 @@ namespace MvcMovie.Data
         }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

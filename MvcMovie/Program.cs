@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MvcMovie.Data;
-//using MvcMovie.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using MvcMovie.Data;
+using MvcMovie.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,14 +14,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MoviesDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MoviesDatabase")));
 
+builder.Services.AddDbContext<RolesDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MoviesDatabase")));
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MoviesDatabase")));
 
+
 // Register HttpClient
 builder.Services.AddHttpClient();
-
-// Register MovieService for dependency injection
-//builder.Services.AddScoped<MovieService>();
 
 // Configure cookie authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -32,8 +33,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Account/AccessDenied"; // Path for access denied
     });
 
-// Add authorization services
-builder.Services.AddAuthorization();
+// Add authorization services with policies
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("ModeratorOnly", policy => policy.RequireRole("Moderator"));
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+});
 
 // Add controllers with views
 builder.Services.AddControllersWithViews();

@@ -19,6 +19,11 @@ namespace MvcMovie.Models
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        // Role of the user (e.g., "Admin", "Moderator", "User")
+        [Required]
+        [StringLength(50, ErrorMessage = "Role cannot be longer than 50 characters.")]
+        public string Role { get; set; }
     }
 
     public class LoginViewModel
@@ -36,5 +41,4 @@ namespace MvcMovie.Models
             public string Password { get; set; } = string.Empty;
         }
     }
-
 }
